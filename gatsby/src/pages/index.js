@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,6 +9,7 @@ export const query = graphql`
     allNodeArticle {
       edges {
         node {
+          id
           title
           body {
             value
@@ -43,7 +43,7 @@ const IndexPage = ({ data }) => (
           <em>{Date(edge.node.created)}</em>
         </small>
         <div
-          style={{ maxWidth: `300px`, marginBottom: `1.45rem`, width: `100%` }}
+          style={{ maxWidth: `300px`, margin: ` 0 1.45rem 1.45rem 0`, width: `100%`, float: `left` }}
         >
           <Img
             fluid={
@@ -58,6 +58,7 @@ const IndexPage = ({ data }) => (
               edge.node.body.value.split(" ").splice(0, 50).join(" ") + "...",
           }}
         ></div>
+        <hr style={{ clear: `both`, margin: `1.45rem 0` }}  />
       </>
     ))}
   </Layout>

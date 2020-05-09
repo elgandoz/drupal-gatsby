@@ -17,12 +17,17 @@
     "require": {
         "composer/installers": "^1.2",
         "drupal/admin_toolbar": "^2.2",
+        "drupal/bootstrap_barrio": "^4.27",
+        "drupal/bootstrap_storybook": "^2.80",
         "drupal/coffee": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
-        "drupal/pathauto": "^1.8"
+        "drupal/govuk_theme": "^1.5",
+        "drupal/pathauto": "^1.8",
+        "drupal/radix": "^4.8",
+        "drupal/tailwindcss": "^2.4",
     },
     "require-dev": {
     },

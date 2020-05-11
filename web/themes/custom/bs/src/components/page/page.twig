@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Template for all pages.
+ */
+#}
+<div class="page">
+  {% include "@bs/section/navigation.twig" %}
+
+  <main class="pt-5 pb-5">
+    {% include "@bs/section/header.twig" %}
+    {% include "@bs/section/content.twig" %}
+  </main>
+
+    {% include "@bs/section/footer.twig" %}
+</div>

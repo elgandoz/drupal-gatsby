@@ -1,16 +1,16 @@
-uuid: 0e133d60-f085-403e-b57f-f3eda04fb37f
+uuid: e71372c7-6e8b-44c7-a80c-b1a1a8f1520b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bs
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: bartik_messages
-theme: bartik
-region: highlighted
+id: bs_messages
+theme: bs
+region: navbar_branding
 weight: 0
 provider: null
 plugin: system_messages_block

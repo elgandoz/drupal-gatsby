@@ -1,16 +1,16 @@
-uuid: 33865ff3-08bd-4253-b197-2dc72fb4d51e
+uuid: e701df29-acd2-4de1-bfd0-d7c741cad057
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bs
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: bartik_powered
-theme: bartik
-region: footer_fifth
+id: bs_powered
+theme: bs
+region: navbar_branding
 weight: 10
 provider: null
 plugin: system_powered_by_block
